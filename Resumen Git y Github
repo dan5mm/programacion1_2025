@@ -1,0 +1,24 @@
+José Daniel Morales Marroquín
+Ingenieria en sistemas 
+seccion:A 
+Ing. Marco Tulio 
+
+1. GIT: es un sistema de control de versiones que permite a los desarrolladores llevar un registro de los cambios realizados en su código y colaborar de manera efectiva en proyectos de software.
+
+2. Algunos de los comandos más importantes son:
+   - git init: para inicializar un nuevo repositorio.
+   - git add: para agregar cambios al área de preparación.
+   - git commit: para confirmar los cambios y crear una nueva revisión.
+   - git push: para enviar cambios a un repositorio remoto.
+   - git pull: para obtener cambios desde un repositorio remoto.
+   - git clone: para clonar un repositorio remoto en local.
+
+3. La diferencia entre Git y Github 
+es que Git es el sistema de control de versiones en sí mismo, mientras que Github es una plataforma en línea que utiliza Git para alojar repositorios y facilitar la colaboración en proyectos de software.
+
+4. Algunos comandos para subir cambios a un repositorio son:
+   - git add <archivo>: para agregar un archivo específico al área de preparación.
+   - git commit -m "mensaje": para confirmar los cambios con un mensaje descriptivo.
+   - git push origin <branch>: para enviar los cambios a un repositorio remoto en la rama especificada.
+
+5. Una branch es una versión separada del código principal (rama principal) en la que se pueden realizar cambios y experimentar sin afectar directamente al código principal. Las ramas son útiles para desarrollar nuevas funcionalidades o solucionar problemas sin interferir con el trabajo de otros colaboradores.
