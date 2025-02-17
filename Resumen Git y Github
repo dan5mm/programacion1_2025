@@ -22,3 +22,36 @@ es que Git es el sistema de control de versiones en sí mismo, mientras que Gith
    - git push origin <branch>: para enviar los cambios a un repositorio remoto en la rama especificada.
 
 5. Una branch es una versión separada del código principal (rama principal) en la que se pueden realizar cambios y experimentar sin afectar directamente al código principal. Las ramas son útiles para desarrollar nuevas funcionalidades o solucionar problemas sin interferir con el trabajo de otros colaboradores.
+
+6. ¿Cuál es la diferencia entre un repositorio local y un repositorio remoto?
+   - El repositorio local es tu copia personal del proyecto para trabajar individualmente.
+   - El repositorio remoto es la versión compartida en línea que permite la colaboración con otros desarrolladores.
+
+7.Comandos básicos:
+  Inicializar un repositorio:
+
+git init: Este comando se utiliza para crear un nuevo repositorio Git vacío en el directorio actual. Convierte una carpeta normal en un repositorio Git donde puedes empezar a versionar tus archivos.
+Descargar un repositorio:
+
+git clone <url_del_repositorio>: Este comando clona un repositorio remoto (alojado en GitHub, GitLab, etc.) a tu máquina local. Crea una copia completa del repositorio, incluyendo el historial de cambios, en una nueva carpeta.
+Agregar archivos a un repositorio local:
+
+git add <nombre_del_archivo>: Este comando agrega el archivo especificado al "área de preparación" (staging area) de Git. Los archivos en el área de preparación son los que se incluirán en el próximo commit. Puedes usar git add . para agregar todos los archivos modificados.
+Confirmar cambios en un repositorio local:
+
+git commit -m "Mensaje descriptivo": Este comando guarda los cambios realizados en el área de preparación en el historial del repositorio local. Es importante incluir un mensaje descriptivo que explique los cambios realizados.
+Subir cambios a un repositorio remoto:
+
+git push <nombre_del_remoto> <nombre_de_la_rama>: Este comando sube los commits realizados en tu repositorio local a un repositorio remoto. <nombre_del_remoto> suele ser origin (el nombre por defecto para el repositorio remoto clonado), y <nombre_de_la_rama> indica la rama a la que se subirán los cambios (por ejemplo, main o master).
+Revertir cambios en una branch:
+
+git revert <hash_del_commit>: Este comando crea un nuevo commit que deshace los cambios introducidos por el commit especificado por su hash. Es una forma segura de revertir cambios, ya que conserva un registro de los cambios originales.
+Ejemplo de flujo de trabajo básico:
+
+git init (si vas a crear un nuevo repositorio)
+git clone <url_del_repositorio> (si vas a clonar un repositorio existente)
+git add . (agrega todos los archivos modificados)
+git commit -m "Cambios realizados" (guarda los cambios)
+git push origin main (sube los cambios a la rama principal del repositorio remoto)
+Estos son los comandos básicos más comunes para trabajar con Git. A medida que te familiarices con Git, descubrirás muchos otros comandos útiles para gestionar ramas, fusionar cambios, resolver conflictos y mucho más.
+     
